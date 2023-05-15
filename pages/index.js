@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const callTrigger = async () => {
-  const response = await fetch("https://eoa7s7zs368tk3j.m.pipedream.net", {
+  const response = await fetch("https://eoa7s7zs368tk3j.m.pipedream.net/", options, {
     headers: {
       "Content-Type": "application/json",
     },
